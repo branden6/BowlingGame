@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BallController : MonoBehaviour
 {
@@ -12,10 +13,18 @@ public class BallController : MonoBehaviour
     void Start()
     {
         ballRB = GetComponent<Rigidbody>();
+        Cursor.lockState = CursorLockMode.Locked;
         inputManager.OnSpacePressed.AddListener(LaunchBall);
+
+        ResetBall();
+    }
+
+    public void ResetBall(){
+        isBallLaunched = false;
+        ballRB.isKinematic = true;
+        launchIndicator.gameObject.SetActive(true);
         transform.parent = ballAnchor;
         transform.localPosition = Vector3.zero;
-        ballRB.isKinematic = true;
     }
 
     // Update is called once per frame
