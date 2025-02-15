@@ -215,15 +215,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c84a98c123cf94ce3b5328989571f436, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c84a98c123cf94ce3b5328989571f436, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c84a98c123cf94ce3b5328989571f436, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c84a98c123cf94ce3b5328989571f436, type: 3}
       propertyPath: m_LocalPosition.x
@@ -725,6 +725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gutter (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4264131414665566918, guid: 1e836a7b8eda74488a657eb0996b6aae, type: 3}
+      propertyPath: m_Center.x
+      value: 0.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1174,7 +1178,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f933828235cad4bd8be6ab570bb27b6a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.135
+      value: -0.35
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f933828235cad4bd8be6ab570bb27b6a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1182,7 +1186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f933828235cad4bd8be6ab570bb27b6a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.598
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f933828235cad4bd8be6ab570bb27b6a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1605,8 +1609,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.34
-  m_Center: {x: -0.26, y: 0, z: 0}
+  m_Radius: 0.5
+  m_Center: {x: -0.35, y: 0, z: 0}
 --- !u!23 &1423102042
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1669,7 +1673,7 @@ Transform:
   m_GameObject: {fileID: 1423102040}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.015099705, z: -0, w: 0.99988604}
-  m_LocalPosition: {x: 1.188, y: 0.503, z: -14.126}
+  m_LocalPosition: {x: 1.43, y: 0.503, z: -14.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2008,7 +2012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputManager: {fileID: 491366738}
-  speed: 5
+  speed: 10
 --- !u!1 &1622261459
 GameObject:
   m_ObjectHideFlags: 0
@@ -2380,7 +2384,7 @@ Transform:
   m_GameObject: {fileID: 1957571386}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.984, y: -0.5, z: 0.55}
+  m_LocalPosition: {x: 1.43, y: -0.5, z: 0.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2442,6 +2446,10 @@ PrefabInstance:
     - target: {fileID: 3787516382158571574, guid: 1e836a7b8eda74488a657eb0996b6aae, type: 3}
       propertyPath: m_Name
       value: Gutter
+      objectReference: {fileID: 0}
+    - target: {fileID: 4264131414665566918, guid: 1e836a7b8eda74488a657eb0996b6aae, type: 3}
+      propertyPath: m_Center.x
+      value: -0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
