@@ -207,7 +207,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.27568248, y: 0.000000029473044, z: -0.000000008452756, w: 0.96124876}
-  m_LocalPosition: {x: 0.10826522, y: 5.69, z: -22.594774}
+  m_LocalPosition: {x: 0.10826522, y: 5.94, z: -22.594774}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -593,7 +593,7 @@ Transform:
   m_GameObject: {fileID: 1346948857}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.35, z: 0}
+  m_LocalPosition: {x: 0, y: 0.056, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -756,7 +756,7 @@ Transform:
   m_GameObject: {fileID: 1423102040}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.015099705, z: -0, w: 0.99988604}
-  m_LocalPosition: {x: 0.04, y: 0.454, z: -12.9}
+  m_LocalPosition: {x: 1.135, y: 0.503, z: -14.124}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -775,6 +775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 30
+  ballAnchor: {fileID: 1957571387}
   inputManager: {fileID: 491366738}
 --- !u!54 &1423102046
 Rigidbody:
@@ -831,11 +832,12 @@ Transform:
   m_GameObject: {fileID: 1542014678}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.10826522, y: 0.69, z: -14.594774}
+  m_LocalPosition: {x: 0.10826522, y: 0.94, z: -14.594774}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1346948858}
+  - {fileID: 1957571387}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1542014680
@@ -1133,7 +1135,7 @@ Transform:
   m_GameObject: {fileID: 1622261459}
   serializedVersion: 2
   m_LocalRotation: {x: 0.27568245, y: 0.000000029473044, z: -0.000000008452756, w: 0.96124876}
-  m_LocalPosition: {x: 0.10826522, y: 5.69, z: -22.594774}
+  m_LocalPosition: {x: 0.10826522, y: 5.94, z: -22.594774}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1247,6 +1249,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1957571386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1957571387}
+  m_Layer: 0
+  m_Name: BallAnchor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1957571387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957571386}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.984, y: -0.5, z: 0.55}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1542014679}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1824264638107421714
 PrefabInstance:
