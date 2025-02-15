@@ -10,7 +10,7 @@ public class BallController : MonoBehaviour
     void Start()
     {
         ballRB = GetComponent<Rigidbody>();
-
+        
         inputManager.OnSpacePressed.AddListener(LaunchBall);
     }
 
